@@ -1234,7 +1234,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "aiosqlite" },
+    { name = "aiosqlite", specifier = ">=0.20.0" },
     { name = "fastmcp", specifier = ">=3.3.1" },
 ]
 
